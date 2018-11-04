@@ -1,0 +1,80 @@
+﻿#myDIV 
+<H1>
+{ width: 300px;
+    height: 200px;
+    background: red;
+    -webkit-animation: mymove 2s infinite; 
+    animation: mymove 2s infinite;
+	</H1>
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: yellow;}
+    to {background-color: lime;}
+}
+
+@keyframes mymove {
+    from {background-color: lime;}
+    to {background-color: yellow;}
+}
+
+
+
+div.c{
+	
+	color:red;
+	font-size: 300%;
+	background: yellow;
+	
+}
+div.quote{
+	color:blue;
+	font-size:230%;
+
+background: yellow;
+}
+[title~=flower]
+ {
+    border: 9px solid DeepPink	;
+}
+#grad1 {
+    height: 200px;
+    background: linear-gradient(red, yellow, blue);
+	
+}
+ @font-face {
+    font-family: Arial; 
+    src: url(fonts/Marck Script.ttf); 
+   }
+   p {
+    font-family: Marck Script;
+ color: blue;
+ 	font-size: 150%;
+	letter-spacing:7px;
+	
+   }
+ figcaption{
+	   color:red;
+	   opacity: .5;
+	   
+	 border: 5px solid red;
+    background-color: lightblue;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+	-moz-transform: rotate(60deg);
+	div.s{
+	
+	color:red;
+
+	
+}
+   }
+   a:active {
+	   color: red;
+
+   }
+   body {
+	   background-image: url(https://st3.depositphotos.com/12674628/15278/i/450/depositphotos_152785580-stock-photo-black-slate-background.jpg)
+   }
